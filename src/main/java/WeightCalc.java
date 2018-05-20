@@ -10,19 +10,13 @@ public class WeightCalc {
         double height = sc.nextInt();
         Weight w = new Weight();
 
-        if(i==1){
-
-            System.out.println("Your ideal weight - "+w.idealMan(height));
+        if (i == 1) {
+            System.out.println("Your ideal weight - " + w.idealMan(height));
+        } else {
+            System.out.println("Your ideal weight - " + w.idealWoman(height));
         }
-        else{
-
-            System.out.println("Your ideal weight - "+w.idealWoman(height));
-        }
-
-
 
     }
-
 
 
 }
